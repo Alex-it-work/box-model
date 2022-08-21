@@ -32,21 +32,29 @@ span {
 }
 
 .div3,
-.div4 {
+.div4,
+.div5 {
   display: inline-block;
   box-sizing: border-box;
-  height: 200px;
-  width: 40%;
   background-color: chartreuse;
   border: 2px solid black;
+}
+
+.div3,
+.div4 {
+  height: 200px;
+  width: 40%;
   margin: 50px 5%;
 }
 
 .div5 {
   text-align: center;
+  color: aliceblue;
+  text-shadow: 2px 2px 3px black;
   font-size: 25px;
-  box-sizing: border-box;
-  border: 2px solid black;
   padding: 10%;
-  background-color: chartreuse;
+  background-image: url('https://cdn.britannica.com/34/180334-138-4235A017/subordinate-meerkat-pack.jpg?w=800&h=450&c=crop');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
